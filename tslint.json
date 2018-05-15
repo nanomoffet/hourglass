@@ -18,12 +18,14 @@
     "forin": true,
     "import-blacklist": [
       true,
-      "rxjs/Rx"
+      "rxjs/Rx",
+      "rxjs"
     ],
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "spaces",
+      4
     ],
     "interface-over-type-literal": true,
     "label-position": true,
@@ -47,6 +49,7 @@
     "no-bitwise": true,
     "no-console": [
       true,
+      "log",
       "debug",
       "info",
       "time",
@@ -114,7 +117,9 @@
       "check-decl",
       "check-operator",
       "check-separator",
-      "check-type"
+      "check-type",
+      "check-typecast",
+      "check-preblock"
     ],
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
